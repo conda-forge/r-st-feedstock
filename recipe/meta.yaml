@@ -15,7 +15,7 @@ source:
   sha256: eb020c1ee0a043f5e76d3dd781219eb409fe42584b657bd096f29df19974de36
 
 build:
-  number: 0
+  number: 1
   # r-fdrtool fails to build on windows
   skip: true  # [win]
   rpaths:
@@ -53,6 +53,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - dpryan79
     - cbrueffer
     - johanneskoester
     - bgruening
