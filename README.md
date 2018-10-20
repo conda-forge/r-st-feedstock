@@ -1,13 +1,13 @@
 About r-st
 ==========
 
-Home: https://CRAN.R-project.org/package=st
+Home: http://strimmerlab.org/software/st/
 
 Package license: GPL (>= 3)
 
 Feedstock license: BSD 3-Clause
 
-Summary: Implements the "shrinkage t" statistic introduced in Opgen-Rhein and Strimmer (2007) and a shrinkage estimate of the "correlation-adjusted t-score" (CAT score) described in Zuber and Strimmer (2009).  It also offers a convenient interface to a number of other regularized t-statistics commonly employed in high-dimensional case-control studies.
+Summary: Implements the "shrinkage t" statistic  introduced in Opgen-Rhein and Strimmer (2007) and a shrinkage estimate of the "correlation-adjusted t-score" (CAT score) described in Zuber and Strimmer (2009).  It also offers a convenient interface  to a number of other regularized t-statistics commonly  employed in high-dimensional case-control studies.    
 
 
 
@@ -16,7 +16,7 @@ Current build status
 
 [![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-st-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-st-feedstock)
 [![OSX](https://img.shields.io/travis/conda-forge/r-st-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-st-feedstock)
-![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-st-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-st-feedstock/branch/master)
 
 Current release info
 ====================
