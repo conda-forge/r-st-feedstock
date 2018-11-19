@@ -14,9 +14,8 @@ Summary: Implements the "shrinkage t" statistic  introduced in Opgen-Rhein and S
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-st-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-st-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-st-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-st-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-st-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-st-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-st-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-st-feedstock)
 
 Current release info
 ====================
