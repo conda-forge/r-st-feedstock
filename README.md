@@ -5,7 +5,7 @@ Home: http://strimmerlab.org/software/st/
 
 Package license: GPL (>= 3)
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Implements the "shrinkage t" statistic  introduced in Opgen-Rhein and Strimmer (2007) and a shrinkage estimate of the "correlation-adjusted t-score" (CAT score) described in Zuber and Strimmer (2009).  It also offers a convenient interface  to a number of other regularized t-statistics commonly  employed in high-dimensional case-control studies.    
 

@@ -1,4 +1,4 @@
-{% set version = '1.2.5' %}
+{% set version = "1.2.6" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,11 +11,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/st_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/st/st_{{ version }}.tar.gz
-  sha256: eb020c1ee0a043f5e76d3dd781219eb409fe42584b657bd096f29df19974de36
+  sha256: 803407f2dbeb9cfac46879f00b47fae41b2f0f4e6708b77e11af0116448c4b6c
 
 build:
   noarch: generic
-  number: 1004
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -40,13 +40,10 @@ test:
 about:
   home: http://strimmerlab.org/software/st/
   license: GPL (>= 3)
-  summary: 'Implements the "shrinkage t" statistic  introduced in Opgen-Rhein and Strimmer (2007)
-    and a shrinkage estimate of the "correlation-adjusted t-score" (CAT score) described
-    in Zuber and Strimmer (2009).  It also offers a convenient interface  to a number
-    of other regularized t-statistics commonly  employed in high-dimensional case-control
-    studies.    '
+  summary: 'Implements the "shrinkage t" statistic  introduced in Opgen-Rhein and Strimmer (2007) and a shrinkage estimate of the "correlation-adjusted t-score" (CAT score) described in Zuber and Strimmer (2009).  It also offers a convenient interface  to a number of other regularized t-statistics commonly  employed in high-dimensional
+    case-control studies.    '
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
+  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
   recipe-maintainers:
